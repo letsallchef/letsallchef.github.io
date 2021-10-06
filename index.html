@@ -72,32 +72,6 @@
 		</div>
 	</div>
 
-	<!-- Featured Recipes -->
-<!-- 	<div class="ui container stackable five column grid" id="featured-recipes">
-		<% if(featuredRecipes.length){ %>
-		<% featuredRecipes.forEach(function(recipe){ %>
-		<div class="wide column">
-			<div class="ui fluid card">
-				<div class="image">
-					<img src="/recipes/public/uploads/covers/<% if(recipe.cover){ %><%= recipe.cover %><%} else{ %>default.jpg<% } %>">
-				</div>
-				<div class="content">
-					<a class="header" href="/recipes/<%= recipe._id %>"><%= recipe.title %></a>
-					<div class="meta">
-						<span class="date"><%= recipe.course %></span>
-					</div>
-				</div>
-				<div class="extra content">
-					<a>
-						<i class="world icon"></i>
-						<%= recipe.cuisine %>
-					</a>
-				</div>
-			</div>
-		</div>
-		<% });} %>
-	</div> -->
-
 	<footer class="ui inverted vertical footer segment">
 		<div class="ui container">
 			<div class="ui stackable inverted divided equal height stackable grid">
@@ -127,7 +101,6 @@
 			</div>
 		</div>
 	</footer>
-	
 
 	<script src="{{ site.baseurl }}/assets/js/jquery-3.1.0.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.1/semantic.min.js"></script>
